@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".login"
+    android:id="@+id/linear_sign"
+    android:background="@drawable/hamid"
+    >
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" Name"
+
+        android:textColorHint="#ffe5e1"
+
+        android:textColor="#f1d8d3"
+        android:layout_marginHorizontal="77dp"
+        android:layout_marginTop="100dp"
+
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editText_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint=" password"
+
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+        android:layout_marginHorizontal="77dp"
+        android:textColorHint="#ffe5e1"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+
+        />
+    <EditText
+        android:id="@+id/editText_pass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint=" password"
+
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+
+        android:layout_marginHorizontal="77dp"
+        android:textColorHint="#ffe5e1"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnsign1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_design_sign"
+        android:layout_marginStart="130dp"
+        android:text="Sign"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

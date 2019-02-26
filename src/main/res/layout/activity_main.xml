@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/hamid"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnsign"
+        android:layout_marginTop="150dp"
+        android:layout_marginHorizontal="256dp"
+        android:text="+"
+        android:textSize="18dp"
+        android:background="@drawable/circle_btn"
+        />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" UserName"
+        android:textColorHint="#ffd4cd"
+
+        android:textColor="#00ff00"
+        android:layout_marginHorizontal="71dp"
+
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        />
+
+    <EditText
+        android:id="@+id/editText_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+
+        android:layout_marginHorizontal="71dp"
+
+        android:hint=" pass"
+        android:textColorHint="#ffd7d0"
+        android:textColor="#00ff00"
+
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnlogin"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_design_sign"
+        android:layout_marginStart="140dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
